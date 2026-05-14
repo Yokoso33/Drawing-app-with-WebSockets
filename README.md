@@ -231,10 +231,8 @@ npm install
 
 ## 🐛 Known Issues
 
-- Mobile touch support is limited (desktop-optimized)
+- No AI feature is introduced in this which is yet to introduced
 - Very large brush sizes (50px) may cause performance issues on older devices
-
----
 
 ## 🔮 Future Enhancements
 
