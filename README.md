@@ -240,3 +240,7 @@ npm install
 - Structured system where rooms and user system is perfect.
 - User could add images on draw above it.
 - Improvement in security
+
+## Output Screen demo
+
+![alt text](image.png)
