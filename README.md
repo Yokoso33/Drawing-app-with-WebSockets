@@ -155,26 +155,6 @@ Access from other devices: `http://YOUR_IP_ADDRESS:3000`
 
 ---
 
-## 🔧 Troubleshooting
-
-### Port Conflicts
-
-If ports 3000 or 3001 are already in use:
-
-**Windows:**
-
-```bash
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-```
-
-**Mac/Linux:**
-
-```bash
-lsof -i :3000
-kill -9 <PID>
-```
-
 ### Missing Dependencies
 
 If you encounter module not found errors:
@@ -245,6 +225,7 @@ npm install
 - Firefox
 - Edge
 - Safari _(latest version)_
+- Brave
 
 ---
 
@@ -257,10 +238,7 @@ npm install
 
 ## 🔮 Future Enhancements
 
-- Touch screen support for mobile devices
-- Additional drawing tools (polygon, star, text)
-- Fill color and gradient support
-- Layer system
-- Drawing history timeline
-- Export as SVG or PDF
-- User authentication and saved drawings
+- AI drawing enhancer by using API of any AI.
+- Structured system where rooms and user system is perfect.
+- User could add images on draw above it.
+- Improvement in security
